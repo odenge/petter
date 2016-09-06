@@ -1,0 +1,600 @@
+﻿@charset "utf-8";
+
+/* --------------------------------------------------------------
+
+inquiry style
+
+-------------------------------------------------------------- */
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,
+form,fieldset,input,textarea,p,blockquote,th{
+padding: 0;
+margin: 0;
+}
+
+address,caption,cite,code,dfn,em,var{
+font-weight: normal;
+font-style: normal;
+}
+
+ol,ul{
+list-style:none;
+padding: 0;
+margin: 0;
+}
+ol li {
+padding: 0;
+margin: 0;
+}
+ul li {
+padding: 0;
+margin: 0;
+}
+
+
+h1,h2,h3,h4,h5,h6{
+font-size: 100%;
+font-weight: normal;
+padding: 0;
+margin: 0;
+}
+
+img{
+vertical-align: bottom;
+border: none;
+}
+
+table {
+border-collapse: collapse;
+margin: 0px;
+padding: 0px;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden;
+}
+
+.clearfix {
+  min-height: 1px;
+}
+
+* html .clearfix {
+  height: 1px;
+  /*¥*//*/
+  height: auto;
+  overflow: hidden;
+  /**/
+}
+
+/* --------------------------------------------------------------
+
+link style
+
+-------------------------------------------------------------- */
+
+#contents a:link {
+color: #f56a04;
+text-decoration: none;
+}
+
+#contents a:visited {
+color: #f56a04;
+text-decoration: none;
+}
+
+#contents a:hover, a:active {
+color: #ff7709;
+text-decoration: underline;
+}
+
+
+/* --------------------------------------------------------------
+
+page style
+
+-------------------------------------------------------------- */
+
+body {
+margin: 0px;
+padding: 0px;
+text-align: center;
+width: 100%;
+color: #333333;
+font-size: 62.5%;
+background-color: #FFFFFF;
+}
+
+#wrapper {
+margin: 0px;
+padding: 0px;
+text-align: center;
+width: 100%;
+}
+
+#contents {
+margin: 0px auto;
+padding: 0px;
+text-align: center;
+width: 960px;
+font-size: 1.6em;
+line-height: 1.8em;
+}
+
+#main {
+margin: 0px auto 30px auto;
+padding: 0px;
+text-align: left;
+width: 960px;;
+}
+
+
+
+
+
+
+
+
+
+#header {
+padding-top: 15px;
+padding-bottom: 5px;
+}
+
+#header h1 {
+float: left;
+}
+
+#header .logout {
+float: right;
+padding-top: 20px;
+}
+#header .logout button {
+width: 80px;
+height: 30px;
+}
+
+
+
+#contents h2 {
+font-size: 1.2em;
+line-height: 1.4em;
+font-weight: bold;
+margin-bottom: 20px;
+padding: 5px 10px;
+border: 1px solid #333333;
+background-color: #f1771d;
+color: #FFFFFF;
+}
+
+#contents h3 {
+font-size: 1.2em;
+line-height: 1.4em;
+font-weight: bold;
+margin-bottom: 20px;
+padding: 5px 10px;
+border: 1px solid #333333;
+background-color: #FFFFFF;
+color: #f1771d;
+}
+
+
+#contents .link_up {
+text-align: left;
+font-size: 0.9em;
+}
+
+
+
+.error_message {
+	font-weight: bold;
+	color: #ff7709;
+	margin-bottom: 5px;
+}
+
+
+ul.page_list {
+
+}
+
+ul.page_list li {
+	float: left;
+	padding-top: 0.1em;
+	padding-right: 18px;
+	vertical-align: top;
+}
+
+ul.page_list li.now_page {
+	font-weight: bold;
+	font-size: 1.4em;
+	vertical-align: top;
+	padding-top: 0px;
+}
+
+.article_page_list {
+	padding-bottom: 3px;
+}
+
+
+/* --------------------------------------------------------------
+
+form
+
+-------------------------------------------------------------- */
+
+
+#main .form_table {
+width: 100%;
+margin-bottom: 20px;
+}
+
+#main .form_table th {
+border: 1px solid #333333;
+background-color: #F1771D;
+color: #FFFFFF;
+font-weight: bold;
+padding: 5px 10px;
+text-align: center;
+vertical-align: middle;
+width: 195px;
+}
+
+#main .form_table td {
+border: 1px solid #333333;
+background-color: #FFFFFF;
+padding: 5px 10px;
+text-align: left;
+vertical-align: middle;
+}
+
+
+#main .form_table td:hover {
+	background-color: #FFEEEE;
+}
+
+#main .form_table td:active {
+	background-color: #FFEEEE;
+}
+
+
+
+#main .form_table td ul.form_ul li{
+	float: left;
+	padding-right: 30px;
+}
+
+
+
+#main .form_table td input.title {
+width: 710px;
+}
+#main .form_table td input.article_number {
+width: 50px;
+}
+#main .form_table td input.url {
+width: 710px;
+}
+#main .form_table td input.article_title {
+width: 710px;
+}
+#main .form_table td textarea.article_contents {
+width: 710px;
+height: 200px;
+}
+#main .form_table td input.time4 {
+width: 38px;
+}
+#main .form_table td input.time2 {
+width: 22px;
+}
+
+
+#main .form_btn input {
+width: 80px;
+height: 30px;
+}
+
+
+/* --------------------------------------------------------------
+
+margin padding
+
+-------------------------------------------------------------- */
+
+.mb5 {
+  margin-bottom:5px;
+}
+.mb10 {
+  margin-bottom:10px;
+}
+.mb15 {
+  margin-bottom:15px;
+}
+.mb20 {
+  margin-bottom:20px;
+}
+.mb30 {
+  margin-bottom:30px;
+}
+.mb40 {
+  margin-bottom:40px;
+}
+
+.mt5 {
+  margin-top:5px;
+}
+.mt10 {
+  margin-top:10px;
+}
+
+.mt15 {
+  margin-top:15px;
+}
+
+.mt20 {
+  margin-top:20px;
+}
+
+.ml5 {
+  margin-left:5px;
+}
+.ml10 {
+  margin-left:10px;
+}
+.ml15 {
+  margin-left:15px;
+}
+.ml20 {
+  margin-left:20px;
+}
+
+.mr5 {
+  margin-right:5px;
+}
+.mr10 {
+  margin-right:10px;
+}
+.mr15 {
+  margin-right:15px;
+}
+.mr20 {
+  margin-right:20px;
+}
+
+.pb5 {
+  padding-bottom:5px;
+}
+.pb10 {
+  padding-bottom:10px;
+}
+.pb15 {
+  padding-bottom:15px;
+}
+.pb20 {
+  padding-bottom:20px;
+}
+
+.pt5 {
+  padding-top:5px;
+}
+.pt10 {
+  padding-top:10px;
+}
+
+.pt15 {
+  padding-top:15px;
+}
+
+.pt20 {
+  padding-top:20px;
+}
+
+.pl5 {
+  padding-left:5px;
+}
+.pl10 {
+  padding-left:10px;
+}
+.pl15 {
+  padding-left:15px;
+}
+.pl20 {
+  padding-left:20px;
+}
+
+.pr5 {
+  padding-right:5px;
+}
+.pr10 {
+  padding-right:10px;
+}
+.pr15 {
+  padding-right:15px;
+}
+.pr20 {
+  padding-right:20px;
+}
+
+
+
+
+/* --------------------------------------------------------------
+
+login page
+
+-------------------------------------------------------------- */
+
+#main .login {
+margin-top: 10px;
+}
+
+#main .login input{
+width: 125px;
+}
+
+
+
+#main .login .login_table th {
+vertical-align: top;
+font-weight: bold;
+text-align: right;
+width: 100px;
+padding-bottom: 12px;
+}
+
+#main .login .login_table td {
+vertical-align: top;
+font-weight: normal;
+text-align: left;
+padding-left: 20px;
+padding-bottom: 12px;
+}
+
+
+
+#main .login .login_btn input {
+width: 80px;
+height: 30px;
+margin-left: 170px;
+margin-top: 7px;
+}
+
+#main .login p.error_message {
+margin-top: 0px;
+}
+
+/* --------------------------------------------------------------
+
+db list page
+
+-------------------------------------------------------------- */
+
+#main .default_table {
+width: 960px;;
+margin-bottom: 20px;
+}
+
+#main .default_table td {
+vertical-align: top;
+text-align: left;
+}
+
+#main .default_table td.checkbox {
+width: 15px;
+}
+
+#main .default_table td.db_content {
+padding-left: 10px;
+}
+
+
+
+#main .default_ul li {
+width: 320px;
+float: left;
+}
+
+#main .default_ul li.left {
+text-align: left;
+}
+#main .default_ul li.center {
+text-align: center;
+}
+#main .default_ul li.right {
+text-align: right;
+}
+
+
+#main .default_ul li input {
+width: 80px;
+height: 30px;
+}
+
+/* --------------------------------------------------------------
+
+article list page
+
+-------------------------------------------------------------- */
+
+.article_list_table {
+width: 960px;;
+margin-bottom: 20px;
+}
+.article_list_table th {
+	border: 1px solid #333333;
+	padding: 5px 15px;
+	vertical-align: middle;
+	text-align: center;
+	background-color: #f1771d;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+.article_list_table td {
+	border: 1px solid #000000;
+	padding: 5px 15px;
+	vertical-align: middle;
+	text-align: left;
+}
+
+.article_list_table tr:hover {
+	background-color: #FFEEEE;
+}
+
+.article_list_table tr:active {
+	background-color: #FFEEEE;
+}
+
+
+
+.article_list_table td.checkbox {
+	width: 15px;
+}
+
+.article_list_table td.time {
+	width: 170px;
+}
+
+
+
+
+#main .article_list_ul li {
+width: 480px;
+float: left;
+}
+
+#main .article_list_ul li.left {
+text-align: left;
+}
+#main .article_list_ul li.right {
+text-align: right;
+}
+
+
+#main .article_list_ul li input {
+width: 80px;
+height: 30px;
+}
+
+
+/* --------------------------------------------------------------
+
+article list page
+
+-------------------------------------------------------------- */
+
+#contents h2 .db_title {
+float: left;
+}
+
+#contents h2 .db_id {
+float: right;
+width: 75px;
+padding-left: 10px;
+margin-left: 15px;
+background-color: #FFFFFF;
+color: #F1771D;
+}
+
